@@ -11,9 +11,10 @@ export default function Header() {
             <header className="">
                 <nav className="navbar navbar-expand-sm navbar-ligh">
                     <div className="container">
-                        <a className="navbar-brand" href="#">
+                        <NavLink className="nav-link navbar-brand" to='/'>
+
                             <i className="bi bi-blockquote-left"></i> BlogPosts
-                        </a>
+                        </NavLink>
                         <button
                             className="navbar-toggler d-lg-none"
                             type="button"

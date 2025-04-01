@@ -30,7 +30,7 @@ export default function posts() {
                         <div className="col" key={post.id}>
                             <div className="card h-100">
                                 <div className="card-body">
-                                    <h5 className="card-title">{post.title}</h5>
+                                    <h3 className="card-title">{post.title}</h3>
                                     <p className="card-text">{post.textBody}</p>
                                 </div>
                             </div>
@@ -38,7 +38,6 @@ export default function posts() {
                     ))}
                 </div>
             </div>
-            <Footer />
         </>
     );
 }
