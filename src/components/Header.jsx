@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <>
             <header className="">
-                <nav className="navbar navbar-expand-sm navbar-light bg-light ">
+                <nav className="navbar navbar-expand-sm navbar-ligh">
                     <div className="container">
                         <a className="navbar-brand" href="#">
                             <i className="bi bi-blockquote-left"></i> BlogPosts
