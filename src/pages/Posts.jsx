@@ -31,11 +31,11 @@ export default function posts() {
                         <div className="col" key={post.id}>
                             <div className="card h-100">
                                 <div className="card-body">
-                                    <h3 className="card-title">{post.title}</h3>
+                                    <h2 className="card-title fw-bold">{post.title}</h2>
                                     <p className="card-text">{post.textBody}</p>
                                     <Link
                                         type="Link"
-                                        class="btn btn-primary"
+                                        class="btn btn-primary fs-5"
                                         to={`/singlepost/${post.id}`}
                                     >
                                         Read More

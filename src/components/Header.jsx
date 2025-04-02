@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <>
             <header className="">
-                <nav className="navbar navbar-expand-sm navbar-ligh">
+                <nav className="navbar navbar-expand-sm navbar-ligh prp-primary">
                     <div className="container">
                         <NavLink className="nav-link navbar-brand" to='/'>
 
