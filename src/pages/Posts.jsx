@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 
 export default function posts() {
 
@@ -32,6 +33,14 @@ export default function posts() {
                                 <div className="card-body">
                                     <h3 className="card-title">{post.title}</h3>
                                     <p className="card-text">{post.textBody}</p>
+                                    <Link
+                                        type="Link"
+                                        class="btn btn-primary"
+                                        to={`/singlepost/${post.id}`}
+                                    >
+                                        Read More
+                                    </Link>
+
                                 </div>
                             </div>
                         </div>
