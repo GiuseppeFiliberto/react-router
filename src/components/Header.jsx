@@ -30,7 +30,7 @@ export default function Header() {
                             <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
                                 {menu.map((item) => (
                                     <li key={item.id} className="nav-item">
-                                        <NavLink className="nav-link" to={item.path}>
+                                        <NavLink className="nav-link fw-bold" to={item.path}>
                                             {item.text}
                                         </NavLink>
                                     </li>
